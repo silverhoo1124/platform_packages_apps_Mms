@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Template delete confirmation -->
+    <!-- 模板删除确认 -->
+    <plurals name="template_confirm_delete_conversation">
+        <item quantity="one">一个模板将被删除</item>
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> 个模板将被删除</item>
+    </plurals>
+
+    <!-- Remaining delay time -->
+    <!-- 剩余的取消发送延时时间 -->
+    <plurals name="remaining_delay_time">
+        <item quantity="one">一秒后发送, 触摸以取消</item>
+        <item quantity="other"> %1$d 秒后发送, 触摸以取消</item>
+    </plurals>
+
+    <!-- Mark as unread confirmation -->
+    <!-- 标记为未读确认 -->
+    <plurals name="confirm_mark_unread_conversation">
+        <item quantity="one"><xliff:g id="number">%1$s</xliff:g> 个对话将被标记为未读</item>
+        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> 个对话将被标记为未读</item>
+    </plurals>
+
+</resources>
