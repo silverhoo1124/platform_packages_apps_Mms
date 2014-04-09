@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Message options - Add SMS to calendar -->
+    <!-- 短信选项 - 添加短信至日历 -->
+    <string name="menu_add_to_calendar">添加至日历</string>
+
+    <!-- QuickMessage - Dialog box buttons -->
+    <!-- 快捷短信 - 对话框按钮 -->
+    <string name="button_close">关闭</string>
+    <string name="button_view">查看</string>
+    <string name="button_templates">模板</string>
+
+    <!-- QuickMessage - Hint text in message body field when keyboard is exposed -->
+    <!-- 快捷短信 - 当键盘出现时, 短信输入框中的提示信息 -->
+    <string name="type_to_reply_text_enter_to_send">输入信息以回复</string>
+
+    <!-- QuickMessage - Toast -->
+    <!-- 快捷短信 - Toast提示 -->
+    <string name="toast_sending_message">正在发送消息</string>
+
+    <!-- QuickMessage - Quick reply -->
+    <!-- 快捷短信 - 快捷回复 -->
+    <string name="qm_quick_reply">回复</string>
+
+    <!-- QuickMessage - Mark as read -->
+    <!-- 快捷短信 - 标记为已读 -->
+    <string name="qm_mark_read">已读</string>
+
+    <!-- QuickMessage - Counter separator -->
+    <!-- 快捷短信 - 短信分割计数器中的分隔符号 (NOTE: 由于中英文语序不同, 中文翻译建议直接采用'/'符号) -->
+    <string name="message_counter_separator">/</string>
+
+    <!-- NOTIFICATIONS -->
+    <!-- 通知设置 -->
+    <!-- Privacy mode -->
+    <!-- 隐私模式 -->
+    <string name="pref_title_notification_privacy_mode_enabled">隐私模式</string>
+    <string name="pref_summary_notification_privacy_mode_enabled">通知栏隐藏发送者和消息并禁用\'快捷回复\'</string>
+    <string name="notification_single_title_privacy_mode">新消息</string>
+    <string name="notification_single_text_privacy_mode">1个未读消息</string>
+    <string name="notification_multiple_title_privacy_mode">新消息</string>
+    <string name="notification_multiple_text_privacy_mode"><xliff:g id="number" example="3">%1$s</xliff:g>个未读消息</string>
+    <string name="notification_ticker_privacy_mode">收到新消息</string>
+
+    <!-- QUICKMESSAGE -->
+    <!-- 快捷短信设置 -->
+    <string name="pref_quickmessage">快捷回复</string>
+
+    <!-- Use dark theme -->
+    <!-- 使用深色主题 -->
+    <string name="pref_dark_theme_title">使用深色主题</string>
+    <string name="pref_dark_theme_summary">如果未选择此项, 默认使用\'浅色\'主题</string>
+
+    <!-- Show pop-up -->
+    <!-- 显示弹窗 -->
+    <string name="pref_quickmessage_title">显示弹窗</string>
+    <string name="pref_quickmessage_summary">新消息传入时显示快捷消息弹窗</string>
+
+    <!-- Wake and unlock -->
+    <!-- 唤醒并解锁 -->
+    <string name="pref_wake_unlock_title">唤醒和解锁</string>
+    <string name="pref_wake_unlock_summary">新消息传入时唤醒并解锁设备(仅适用于非安全锁屏)</string>
+
+    <!-- Close all messages -->
+    <!-- 关闭全部短信 -->
+    <string name="pref_close_all_title">关闭全部</string>
+    <string name="pref_close_all_summary">关闭按钮以关闭所有消息</string>
+
+    <!-- SMS TEMPLATES -->
+    <!-- 短信模板设置 -->
+    <string name="prefs_templates_settings">短信模板</string>
+
+    <!-- Manage SMS templates -->
+    <!-- 管理短信模板 -->
+    <string name="pref_title_templates_manage">模板</string>
+    <string name="pref_summary_templates_manage">管理你的短信模板</string>
+    <string name="template_explanation">插入或修改模板文本并自定义一个手势以关联此模板</string>
+    <string name="template_insert_hint">在此处插入模板文本</string>
+    <string name="template_empty_text">文本字段不能为空</string>
+    <string name="template_save">保存</string>
+    <string name="template_ctx_menu_title">操作</string>
+    <string name="template_edit">编辑</string>
+    <string name="template_delete">删除</string>
+    <string name="template_list_title">模板</string>
+    <string name="template_new_title">新模板</string>
+    <string name="template_insert">插入模板</string>
+    <string name="template_gesture_draw">在下方定义手势</string>
+    <string name="template_not_present_error">无定义的模板</string>
+    <string name="template_not_present_error_title">错误</string>
+    <string name="template_select">选择一个模板</string>
+    <string name="template_confirm_dialog_title">删除?</string>
+    <string name="gestures_already_present">一个类似的手势已经与另一个模板关联</string>
+    <string name="select_template">选择模板</string>
+
+    <!-- Show gesture trace -->
+    <!-- 显示手势跟随/轨迹 -->
+    <string name="pref_title_templates_show_gesture">手势</string>
+    <string name="pref_summary_templates_show_gesture">显示手势轨迹</string>
+
+    <!-- Gesture sensitivity -->
+    <!-- 手势灵敏度 -->
+    <string name="pref_title_template_gestures_sensitivity">手势灵敏度</string>
+
+    <!-- EXTRA SETTINGS -->
+    <!-- 其他设置 -->
+    <string name="pref_extra_settings">其他设置</string>
+
+    <!-- Strip unicode -->
+    <!-- 分离替换统一码 -->
+    <string name="pref_title_unicode_stripping">分离统一码</string>
+    <string name="pref_unicode_stripping_leave_intact">保留完整字符</string>
+    <string name="pref_unicode_stripping_non_encodable">分离无法编码的字符</string>
+    <string name="pref_unicode_stripping_all">分离所有统一码字符</string>
+
+    <!-- Full timestamps -->
+    <!-- 完整时间戳 -->
+    <string name="pref_title_mms_full_timestamp">完整时间戳</string>
+    <string name="pref_summary_mms_full_timestamp">时间戳中显示日期和时间</string>
+
+    <!-- Original timestamps -->
+    <!-- 初始/发送时间戳 -->
+    <string name="pref_title_mms_use_sent_timestamp">原始时间戳</string>
+    <string name="pref_summary_mms_use_sent_timestamp">时间戳中显示发送日期, 而不是接收日期</string>
+
+    <!-- Soft keyboard type -->
+    <!-- 软键盘类型 -->
+    <string name="pref_title_input_type">软键盘类型</string>
+    <string name="pref_keyboard_emoji">显示符号键</string>
+    <string name="pref_keyboard_new_line">显示输入键</string>
+    <string name="pref_keyboard_unknown">未知, 请重新选择</string>
+
+    <!-- Settings item for boolean option for SMS Split Counter -->
+    <!-- 设置条目中短信分割计数器的布尔值选项 -->
+    <string name="pref_title_sms_split_counter">拆分计数器</string>
+    <!-- 设置条目中短信160字分割设置的布尔值选项的描述 -->
+    <string name="pref_summary_sms_split_counter">添加计数器至消息, 如:(1/2)</string>
+
+    <!-- Multi recipients -->
+    <!-- 短信群发 -->
+    <string name="add_recipients">添加收件人</string>
+    <string name="groups_header">群组</string>
+    <string name="loading_recipients">正在加载联系人和群组</string>
+    <string name="no_recipients">没有联系人</string>
+    <string name="hint_findContacts">查找联系人</string>
+    <string name="system_audio_item">系统音效</string>
+    <string name="external_audio_item">外部音效</string>
+
+    <!-- Enter key action -->
+    <!-- 回车键操作 -->
+    <string name="pref_title_mms_enter_action">回车键功能</string>
+    <string name="pref_mms_enter_new_line">强制换行</string>
+    <string name="pref_mms_enter_default">默认</string>
+
+    <!-- Delay delivery -->
+    <!-- 取消发送延时 -->
+    <string name="pref_title_send_delay">延时发送</string>
+    <string name="send_delay_immediate">立即发送</string>
+    <string name="send_delay_3seconds">3 秒</string>
+    <string name="send_delay_5seconds">5 秒</string>
+    <string name="send_delay_10seconds">10 秒</string>
+    <string name="send_delay_20seconds">20 秒</string>
+    <string name="send_delay_30seconds">30 秒</string>
+    <string name="sent_countdown">消息发送倒计时</string>
+
+    <!-- Context menu item on a message for marking as unread -->
+    <!-- 短信的上下文菜单中的标记为未读条目 -->
+    <string name="menu_as_unread">标记为未读</string>
+    <!-- Mark as unread confirmation title -->
+    <!-- 标记为未读确认标题 -->
+    <string name="confirm_mark_unread_dialog_title">标记为未读?</string>
+    <!-- Mark a single conversation as unread confirmation dialog message -->
+    <!-- 标记单一会话为未读确认文字 -->
+    <string name="confirm_mark_unread_conversation">该会话将被标记为未读</string>
+    <!-- Mark all threads as unread confirmation dialog message -->
+    <!-- 标记所有会话为未读确认文字 -->
+    <string name="confirm_mark_unread_all_conversations">所有会话将被标记为未读</string>
+
+</resources>
